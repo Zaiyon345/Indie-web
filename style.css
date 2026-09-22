@@ -1,0 +1,74 @@
+body {
+    background: #eee8dc;
+    color: #29251f;
+    font-family: Georgia, serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px dashed #29251f;
+}
+
+hl {
+    font-size: 45px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #29251f;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 50px 0;
+    padding: 25px;
+    border: 2px solid #29251f;
+    box-shadow: 8px 8px 0px #29251f;
+}
+
+.music-player {
+    padding: 25px;
+    background: #d9c9b8;
+    border: 2px solid #29251f;
+    box-shadow: 7px 7px 0px #29251f;
+    transform: rotate(-1deg);
+}
+
+audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #29251f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+article {
+    padding: 20px;
+    background: #f7f1e8;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
